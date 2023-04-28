@@ -39,7 +39,9 @@ To visualize the differences in runtime more clearly, we have also included a ba
 As you can see, the runtime of the first two epochs on Intel DevCloud is consistently around 99 seconds, while on Google Colab it is consistently around 382 seconds. This suggests that Intel DevCloud is significantly faster for training machine learning models, at least for this particular dataset and model architecture.
 
 ### Screenshot of Colab model Runtime
-![colab run time](https://user-images0.githubusercontent.com/111365771/235186878-5ffcf494-9317-4515-b5b4-8e7031f6be20.png)
+
+![colab run time](https://user-images.githubusercontent.com/111365771/235187893-0d9844ba-c45d-4b72-81a8-9bb23dca621d.png)
+
 
 ### Screenshot of Devcloud model Runtime
 ![oneAPI runtime](https://user-images.githubusercontent.com/111365771/235186925-a7fb6dfc-9dd7-487b-ad9c-45c12f1a4a03.png)
