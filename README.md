@@ -54,3 +54,8 @@ To reproduce these results, you can run the `train.py` script on both Intel DevC
 - NumPy 1.19.5
 - OpenCV 4.1.2.30
 - Gradio 1.6.4
+
+## Live Implementation
+
+https://user-images.githubusercontent.com/111365771/235189170-93984d8a-e188-4b2b-997a-c3c45d43b015.mp4
+
