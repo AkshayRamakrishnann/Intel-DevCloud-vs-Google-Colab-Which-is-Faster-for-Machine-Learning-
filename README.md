@@ -1,0 +1,2 @@
+# Intel-DevCloud-vs-Google-Colab-Which-is-Faster-for-Machine-Learning-
+This repository contains code for training a convolutional neural network on the Chest X-Ray dataset to classify images as normal or pneumonia. The same code was run on two different platforms: Intel DevCloud and Google Colab. The runtime of the first two epochs was recorded on both platforms, and the results are presented below.
