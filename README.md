@@ -59,3 +59,8 @@ To reproduce these results, you can run the `train.py` script on both Intel DevC
 
 https://user-images.githubusercontent.com/111365771/235189170-93984d8a-e188-4b2b-997a-c3c45d43b015.mp4
 
+## Discussion
+The results of this experiment suggest that the choice of platform can have a significant impact on the runtime of machine learning models. In particular, our results show that Intel DevCloud is significantly faster than Google Colab for this particular dataset and model architecture.
+
+There are several factors that could contribute to this difference in runtime. One possible explanation is the difference in hardware specifications between the two platforms. Intel DevCloud provides access to a high-performance CPU with a large amount of RAM, while Google Colab provides access to a GPU with less VRAM and less overall memory. It is possible that the CPU on Intel DevCloud is better suited to this particular task than the GPU on Google
+
