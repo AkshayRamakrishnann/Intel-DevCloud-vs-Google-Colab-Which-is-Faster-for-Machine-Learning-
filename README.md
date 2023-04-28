@@ -33,9 +33,16 @@ The model was trained for 2 epochs on both Intel DevCloud and Google Colab. The 
 
 To visualize the differences in runtime more clearly, we have also included a barplot:
 
-![Barplot comparing runtime on Intel DevCloud and Google Colab](barplot.png)
+![barplot runtime](https://user-images.githubusercontent.com/111365771/235187635-eb6add6f-e8ab-4b3a-8801-8d2188455fcc.png)
+
 
 As you can see, the runtime of the first two epochs on Intel DevCloud is consistently around 99 seconds, while on Google Colab it is consistently around 382 seconds. This suggests that Intel DevCloud is significantly faster for training machine learning models, at least for this particular dataset and model architecture.
+
+### Screenshot of Colab model Runtime
+![colab run time](https://user-images0.githubusercontent.com/111365771/235186878-5ffcf494-9317-4515-b5b4-8e7031f6be20.png)
+
+### Screenshot of Devcloud model Runtime
+![oneAPI runtime](https://user-images.githubusercontent.com/111365771/235186925-a7fb6dfc-9dd7-487b-ad9c-45c12f1a4a03.png)
 
 ## Code
 
@@ -45,16 +52,3 @@ To reproduce these results, you can run the `train.py` script on both Intel DevC
 - NumPy 1.19.5
 - OpenCV 4.1.2.30
 - Gradio 1.6.4
-
-Here is the exact code used for training the model:
-
-```python
-import tensorflow as tf
-import numpy as np
-import cv2
-import gradio as gr
-
-# Load data
-train_data = tf.keras.preprocessing.image_dataset_from_directory(
-    "chest_xray/train",
-    validation_split=0.
